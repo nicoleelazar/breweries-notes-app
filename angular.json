@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "to-do-app": {
+    "breweries-notes-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/to-do-app",
+            "outputPath": "dist/breweries-notes-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,12 +30,10 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+              }],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -45,8 +43,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -63,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "to-do-app:build"
+            "browserTarget": "breweries-notes-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "to-do-app:build:production"
+              "browserTarget": "breweries-notes-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "to-do-app:build"
+            "browserTarget": "breweries-notes-app:build"
           }
         },
         "test": {
@@ -111,15 +108,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "to-do-app:serve"
+            "devServerTarget": "breweries-notes-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "to-do-app:serve:production"
+              "devServerTarget": "breweries-notes-app:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "to-do-app"
+    }
+  },
+  "defaultProject": "breweries-notes-app"
 }
