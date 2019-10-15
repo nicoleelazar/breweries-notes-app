@@ -1,0 +1,27 @@
+.note-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: var(--c-grey);
+}
+
+.note-text {
+  color: var(--c-grey);
+}
+
+.delete {
+  border: none;
+  position: absolute;
+  margin-right: 7px;
+  top: 0;
+  right: 0;
+  font-size: 38px;
+  color: rgb(201, 40, 40);
+  cursor: pointer;
+}
+
+
+[contenteditable]:focus {
+  outline: none;
+  border: 1px solid var(--c-main);
+}

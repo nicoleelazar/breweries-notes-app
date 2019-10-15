@@ -1,0 +1,7 @@
+<app-add-note (addNote)="addNote($event)"></app-add-note>
+
+<div class="notes-container">
+  <app-note-item *ngFor="let note of notes; let i = index" class="note" [note]="note"
+    (deleteNote)="deleteNote($event, i)">
+  </app-note-item>
+</div>

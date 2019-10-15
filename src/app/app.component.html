@@ -1,0 +1,22 @@
+<header class="nav-bar">
+  <div class="container">
+    <a href="#" class="logo" routerLink="/">B&N</a>
+    <nav class="nav-menu">
+      <ul class="nav-links">
+        <li><a class="nav-link" href="#" routerLink="/home">Notes</a></li>
+        <li><a class="nav-link" href="#" routerLink="/list">Breweries</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="footer-info">
+    This is a project site. <br>
+    <span> {{ year }} </span> &copy; Nicole Elazar
+  </div>
+</footer>

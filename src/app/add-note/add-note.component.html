@@ -1,0 +1,7 @@
+<button (click)="showAddNote()" class="add-button">create note</button>
+
+<form class="form" (ngSubmit)="onAddNote()" *ngIf="addBtnPressed">
+  <input class="form-title" type="text" name="brewery" [(ngModel)]="brewery" placeholder="Brewery name...">
+  <textarea class="form-text" type="text" name="text" [(ngModel)]="text" placeholder="Your thoughts..."></textarea>
+  <button type="submit" value="submit" class="button">save note</button>
+</form>

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  --c-main: #FFB200;
+  --c-main-light: rgb(255, 214, 118);
+  --c-feature: #A99078;
+  --c-grey: #4A4A4A;
+  --c-grey-light: rgb(212, 212, 212);
+  --c-fill: #F7F5F2;
+  --c-white: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 93%;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    width: 97%;
+    margin: 0 auto;
+
+  }
+}

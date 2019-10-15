@@ -1,0 +1,20 @@
+.notes-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.note {
+  background: var(--c-main-light);
+  width: 310px;
+  min-height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  position: relative;
+}

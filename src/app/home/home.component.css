@@ -1,0 +1,10 @@
+h1 {
+  color: var(--c-feature);
+}
+
+
+p {
+  font-size: 16px;
+  color: var(--c-grey);
+  margin-bottom: 30px;
+}

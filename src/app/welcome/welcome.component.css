@@ -1,0 +1,87 @@
+h1 {
+  color: var(--c-feature);
+}
+
+
+.welcome-info {
+  font-size: 16px;
+  color: var(--c-grey);
+  margin-bottom: 30px;
+}
+
+.competition-contain {
+  background: var(--c-fill);
+  margin: 0 auto;
+  padding: 30px;
+  width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  .competition-contain {
+    width: 100%;
+  }
+}
+
+.comp-title {
+  color: var(--c-main);
+  margin: 25px 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.comp-info {
+  color: var(--c-grey);
+  max-width: 700px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+button {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 16px;
+  color: var(--c-grey);
+  margin-top: 20px;
+}
+
+.uploadField {
+  border: dashed 2px grey;
+  display: block;
+  padding: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--c-grey);
+}
+
+@media screen and (max-width: 560px) {
+  .uploadField {
+    padding: 40px 5px;
+  }
+}
+
+
+.thanks-msg {
+  text-align: center;
+  color: var(--c-main);
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-main);
+  transition: all 0.3s ease;
+
+}
+
+a:hover {
+  color: var(--c-main-light);
+}
