@@ -1,12 +1,18 @@
-<h1 class="heading">Breweries in California</h1>
-<p class="text">Below is a list of some of the great breweries you can visit in California. <br> This information is
-  pulled
-  from the <a href="https://www.openbrewerydb.org/" target="_blank">Open Brewery DB</a> API.</p>
+<div class="hero"></div>
+<div class="parallax">
+  <div class="inset">
 
-<ul *ngIf="brews" class="tiles">
-  <li *ngFor="let brew of brews" class="tile">
-    <p class="name"> {{ brew.name }} </p>
-    <p class="city"> {{ brew.city }}</p>
-    <a href="{{ brew.website_url }}" class="site">Visit Website</a>
-  </li>
-</ul>
+    <h1 class="heading">Breweries in California</h1>
+    <p class="text">Below is a list of some of the great breweries you can visit in California. <br> This information is
+      pulled
+      from the <a href="https://www.openbrewerydb.org/" target="_blank">Open Brewery DB</a> API.</p>
+
+    <ul *ngIf="brews" class="tiles">
+      <li *ngFor="let brew of brews" class="tile">
+        <p class="name"> {{ brew.name }} </p>
+        <p class="city"> {{ brew.city }}</p>
+        <a href="{{ brew.website_url }}" class="site">Visit Website</a>
+      </li>
+    </ul>
+  </div>
+</div>

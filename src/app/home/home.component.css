@@ -8,3 +8,47 @@ p {
   color: var(--c-grey);
   margin-bottom: 30px;
 }
+
+
+.hero {
+  width: 100%;
+  background-image: url('../../assets/post-it.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+
+.parallax {
+  background-color: white;
+  width: 100%;
+}
+
+/* disable parallax for mobile */
+@media screen and (max-width: 900px) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
+
+
+.inset {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .inset {
+    width: 80%;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .inset {
+    width: 85%;
+    margin: 0 auto;
+
+  }
+}
