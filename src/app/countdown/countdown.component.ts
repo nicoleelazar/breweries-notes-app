@@ -30,7 +30,7 @@ export class CountdownComponent implements OnInit {
 
 
   countdownTimer() {
-    this.endDate = new Date('January 15, 2020 23:59:59').getTime();
+    this.endDate = new Date('April 15, 2020 23:59:59').getTime();
     this.currentTime = new Date().getTime();
     this.timeRemaining = ((this.endDate - this.currentTime) / 24 / 60 / 60 / 1000);
 
