@@ -1,125 +1,116 @@
 .heading {
-  color: var(--c-feature);
+	color: var(--c-feature);
 }
 
 .text {
-  color: var(--c-grey);
-  font-size: 16px;
-  margin-bottom: 30px;
+	color: var(--c-grey);
+	font-size: 16px;
+	margin-bottom: 30px;
 }
 
 .tiles {
-  list-style-type: none;
-  width: 100%;
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 18px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: left;
-  background: var(--c-fill);
-
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 18px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: left;
+	background: var(--c-fill);
 }
-
 
 .tile {
-  padding: 1em;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  width: 220px;
-  height: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  background: var(--c-white);
-  border: solid 1px var(--c-feature);
+	padding: 1em;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 220px;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background: var(--c-white);
+	border: solid 1px var(--c-feature);
 }
 
-
 .name {
-  font-size: 22px;
-  color: var(--c-feature);
+	font-size: 22px;
+	color: var(--c-feature);
 }
 
 .city {
-  font-size: 17px;
-  text-transform: uppercase;
-  color: var(--c-grey);
-
+	font-size: 17px;
+	text-transform: uppercase;
+	color: var(--c-grey);
 }
 
-
 .site {
-  text-decoration: none;
-  background: var(--c-feature);
-  padding: 10px;
-  color: var(--c-white);
-  border-radius: 3px;
-  transition: all 0.3s ease;
+	text-decoration: none;
+	background: var(--c-feature);
+	padding: 10px;
+	color: var(--c-white);
+	border-radius: 3px;
+	transition: all 0.3s ease;
 }
 
 .site:hover {
-  cursor: pointer;
-  background: var(--c-main);
-  color: var(--c-grey);
-
+	cursor: pointer;
+	background: var(--c-main);
+	color: var(--c-grey);
 }
 
 a {
-  text-decoration: none;
-  color: var(--c-main);
-  transition: all 0.3s ease;
-
+	text-decoration: none;
+	color: var(--c-main);
+	transition: all 0.3s ease;
 }
 
 a:hover {
-  color: var(--c-main-light);
+	color: var(--c-main-light);
 }
 
-
 .hero {
-  width: 100%;
-  background-image: url('../../assets/beer-flight.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 280px;
+	width: 100%;
+	background-image: url("../../assets/beer-flight.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 50%;
 }
 
 .parallax {
-  background-color: white;
-  width: 100%;
+	background-color: white;
+	width: 100%;
+	min-height: 70%;
 }
 
 /* disable parallax for mobile */
 @media screen and (max-width: 900px) {
-  .hero {
-    background-attachment: scroll;
-  }
+	.hero {
+		background-attachment: scroll;
+	}
 }
 
-
 .inset {
-  width: 80%;
-  margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 700px) {
-  .inset {
-    width: 80%;
-    margin: 0 auto;
-
-  }
+	.inset {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 560px) {
-  .inset {
-    width: 85%;
-    margin: 0 auto;
-
-  }
+	.inset {
+		width: 85%;
+		margin: 0 auto;
+	}
 }

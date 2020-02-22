@@ -1,66 +1,65 @@
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .footer {
-  margin-top: 70px;
-  background: var(--c-grey);
-  padding: 1em 0;
+	margin-top: 70px;
+	background: var(--c-grey);
+	padding: 1em 0;
 }
 
 .footer-info {
-  max-width: 500px;
-  margin: auto;
-  text-align: center;
-  color: var(--c-feature);
-  font-size: 15px;
+	text-align: center;
+	color: var(--c-feature);
+	font-size: 15px;
 }
 
 .nav-bar {
-  background: var(--c-main);
-  top: 0;
-  width: 100%;
-  height: 60px;
-  position: fixed;
-  z-index: 50;
+	background: var(--c-main);
+	top: 0;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	z-index: 50;
 }
 
-
 .logo {
-  float: left;
-  text-decoration: none;
-  color: var(--c-grey);
-  padding-top: 16px;
-  transition: all 0.3s ease;
-
+	float: left;
+	text-decoration: none;
+	color: var(--c-grey);
+	padding-top: 16px;
+	transition: all 0.3s ease;
 }
 
 .logo:hover {
-  color: var(--c-white);
+	color: var(--c-white);
 }
 
 .nav-menu {
-  float: right;
+	float: right;
 }
 
 .nav-links {
-  margin: 0;
-  display: flex;
-  padding-top: 7px;
-  padding-left: 15px;
-
+	margin: 0;
+	display: flex;
+	padding-top: 7px;
+	padding-left: 15px;
 }
 
 .nav-link {
-  color: var(--c-grey);
-  transition: all 0.3s ease;
-
+	color: var(--c-grey);
+	transition: all 0.3s ease;
 }
 
 .nav-link:hover {
-  color: var(--c-white);
+	color: var(--c-white);
+}
+
+.nav-inset {
+	margin: 0 auto;
+	width: 80%;
 }

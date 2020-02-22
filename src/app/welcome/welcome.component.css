@@ -1,130 +1,124 @@
 h1 {
-  color: var(--c-feature);
+	color: var(--c-feature);
 }
 
 .hero {
-  width: 100%;
-  background-image: url('../../assets/keg-room.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 280px;
+	width: 100%;
+	background-image: url("../../assets/keg-room.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 50%;
 }
 
 .parallax {
-  background-color: white;
-  width: 100%;
+	background-color: white;
+	width: 100%;
+	min-height: 70%;
 }
 
 /* disable parallax for mobile */
 @media screen and (max-width: 900px) {
-  .hero {
-    background-attachment: scroll;
-  }
+	.hero {
+		background-attachment: scroll;
+	}
 }
 
-
 .inset {
-  width: 80%;
-  margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 700px) {
-  .inset {
-    width: 80%;
-    margin: 0 auto;
-
-  }
+	.inset {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 560px) {
-  .inset {
-    width: 85%;
-    margin: 0 auto;
-
-  }
+	.inset {
+		width: 85%;
+		margin: 0 auto;
+	}
 }
 
-
 .welcome-info {
-  font-size: 16px;
-  color: var(--c-grey);
-  margin-bottom: 30px;
+	font-size: 16px;
+	color: var(--c-grey);
+	margin-bottom: 30px;
 }
 
 .competition-contain {
-  background: var(--c-fill);
-  margin: 0 auto;
-  padding: 30px;
-  width: 80%;
+	background: var(--c-fill);
+	margin: 0 auto;
+	padding: 30px;
+	width: 80%;
 }
 
 @media screen and (max-width: 900px) {
-  .competition-contain {
-    width: 100%;
-  }
+	.competition-contain {
+		width: 100%;
+	}
 }
 
 .comp-title {
-  color: var(--c-main);
-  margin: 25px 0;
-  font-size: 22px;
-  text-transform: uppercase;
-  text-align: center;
-
+	color: var(--c-main);
+	margin: 25px 0;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .comp-info {
-  color: var(--c-grey);
-  max-width: 700px;
-  margin-bottom: 30px;
-  text-align: center;
-
+	color: var(--c-grey);
+	/* max-width: 700px; */
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 button {
-  display: block;
-  width: 150px;
-  margin: 0 auto;
+	display: block;
+	width: 150px;
+	margin: 0 auto;
 }
 
 label {
-  font-size: 16px;
-  color: var(--c-grey);
-  margin-top: 20px;
+	font-size: 16px;
+	color: var(--c-grey);
+	margin-top: 20px;
 }
 
 .uploadField {
-  border: dashed 2px grey;
-  display: block;
-  padding: 50px;
-  margin-bottom: 50px;
-  cursor: pointer;
-  font-size: 14px;
-  color: var(--c-grey);
+	border: dashed 2px grey;
+	display: block;
+	padding: 50px;
+	margin-bottom: 50px;
+	cursor: pointer;
+	font-size: 14px;
+	color: var(--c-grey);
 }
 
 @media screen and (max-width: 560px) {
-  .uploadField {
-    padding: 40px 5px;
-  }
+	.uploadField {
+		padding: 40px 5px;
+	}
 }
 
-
 .thanks-msg {
-  text-align: center;
-  color: var(--c-main);
-  padding-top: 25px;
-  font-size: 20px;
+	text-align: center;
+	color: var(--c-main);
+	padding-top: 25px;
+	font-size: 20px;
 }
 
 a {
-  text-decoration: none;
-  color: var(--c-main);
-  transition: all 0.3s ease;
-
+	text-decoration: none;
+	color: var(--c-main);
+	transition: all 0.3s ease;
 }
 
 a:hover {
-  color: var(--c-main-light);
+	color: var(--c-main-light);
 }
